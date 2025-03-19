@@ -182,7 +182,7 @@ h2 {
   overflow: scroll;
   box-sizing: border-box;
   transform: translate(-50%, -50%);
-  background-color: darkgrey;
+  background-color: #525252;
 }
 
 .intro_ac img {
