@@ -1,3 +1,7 @@
+/* problems to discuss:
+ 1. index page -- main div > p margins/padding not working. Higher class selector somewhere?
+ 2.  */
+
 /* Hide skip button */
 .skip {
   position: absolute;
@@ -147,8 +151,8 @@ h2 {
 /* Academic Development */
 /* main div also for basic needs */
 #main div > p  {
-  /* margin: 20px;
-  padding: 10px; */
+  /* margin: 20px; */
+  padding: 0 10% 0 10%;
   font-size: 1.2em;
   text-align: center;
 }
@@ -181,7 +185,7 @@ h2 {
   overflow: scroll;
   box-sizing: border-box;
   transform: translate(-50%, -50%);
-  background-color: darkgrey;
+  background-color: #525252;
 }
 
 .intro_ac img {
